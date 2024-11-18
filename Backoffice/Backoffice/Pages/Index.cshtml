@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<section class="main-section">
+    <div class="text-center section-container">
+        <h1 class="display-4">Trasmisión de canal de youtube</h1>
+        <div class="notification-container">
+            <button id="notification-btn" class="notification-button">
+                <i class="fas fa-bell"></i>
+                <span id="notificationText">Desactivadas</span>
+            </button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="suscription-link-input" placeholder="Enlace de youtube aqui..." readonly />
+            <button id="copyButton">Copiar</button>
+        </div>
+    </div>
+</section>
